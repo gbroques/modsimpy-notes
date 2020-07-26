@@ -1,5 +1,5 @@
 # ModSimPy Notes
-Notes on [Modeling and Simulation in Python](https://github.com/AllenDowney/ModSimPy).
+Notes on [Modeling and Simulation in Python](https://github.com/AllenDowney/ModSimPy). A copy of the book is included in this repository as [ModSimPy3.pdf](./ModSimPy3.pdf), and was downloaded from [Green Tea Press](https://greenteapress.com/wp/modsimpy/).
 
 ## Pre-Requisites
 1. Install `git` (if not already installed)
