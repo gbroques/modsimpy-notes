@@ -4,7 +4,7 @@ Notes on [Modeling and Simulation in Python](https://github.com/AllenDowney/ModS
 * [Pre-Requisites](#pre-requisites)
 * [Getting Started](#getting-started)
 * [Chapter 1: Modeling](#chapter-1-modeling)
-
+* [Chapter 2: Bike Share](#chapter-2-bike-share)
 
 ## Pre-Requisites
 1. Install `git` (if not already installed)
@@ -43,8 +43,14 @@ and simulation.
 * **Iterative Modeling**
   1. Start with a simple model, even if it is likely to be too simple.
   2. Test whether it is good enough for its purpose.
-  3. If not good enough for it's purpose, then add features
-gradually, starting with the ones you expect to be most essential.
+  3. If not good enough for it's purpose, then gradually add features, starting with the ones you expect to be most essential.
 
 * **Internal Validation** - Comparing results of successive models can catch conceptual, mathematical, and software errors. By adding and removing features, you can tell which ones have the biggest effect on the results, and which can be ignored.
 * **External Validation** - Comparing results to data from the real world is generally the strongest test.
+
+## Chapter 2: Bike Share
+See [chap2.py](./chap2.py).
+
+    python chap2.py
+
+![chap2.py results](./chap2.png)
