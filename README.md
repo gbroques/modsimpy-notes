@@ -5,6 +5,7 @@ Notes on [Modeling and Simulation in Python](https://github.com/AllenDowney/ModS
 * [Getting Started](#getting-started)
 * [Chapter 1: Modeling](#chapter-1-modeling)
 * [Chapter 2: Bike Share](#chapter-2-bike-share)
+* [Chapter 3: Iterative Modeling](#chapter-3-iterative-modeling)
 
 ## Pre-Requisites
 1. Install `git` (if not already installed)
@@ -54,3 +55,23 @@ See [chap2.py](./chap2.py).
     python chap2.py
 
 ![chap2.py results](./chap2.png)
+
+## Chapter 3: Iterative Modeling
+The process we use to make models less wrong.
+
+**Exercise:** Make a list of ways this model is unrealistic.
+
+**Questions to Drive Exercise:**
+* What assumptions is the model based on?
+* What are the differences between the model and the real world?
+
+**Iterative Modeling**
+1. Start with a simple model
+2. Identify the most important problems
+3. Make gradual improvements
+
+**Deterministic vs Stochastic Models:**
+Deterministic - predictable; do the same thing every time they run
+Stochastic - un-deterministic, un-predictable, and random behavior
+
+**Metrics** - Statistics that quantify how well the system works are called metrics.
